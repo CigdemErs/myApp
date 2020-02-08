@@ -36,7 +36,7 @@ public class App
         Integer[] inte=new Integer[10];
         
         for(int i=0;i<10;i++) {
-            inte[i]=(int)Math.random()*10;
+            inte[i]=i*100+10000;
         }
 
         String str=keyboard.nextLine();
