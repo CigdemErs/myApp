@@ -95,10 +95,10 @@ public class AppTest
         Integer[] inte=new Integer[10];
         char ch='a';
         for(int i=0;i<10;i++) {
-            inte[i]=i*10+1000000;
+            inte[i]=i*100+1000000;
         }
 
-        String str="bcjkd_[s";
+        String str="bcj_[s";
 
         assertTrue( new App().myMethod(arr,inte,str,ch) );
     
