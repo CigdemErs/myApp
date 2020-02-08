@@ -69,7 +69,7 @@
           <descriptorRefs>
             <descriptorRef>jar-with-dependencies</descriptorRef>
           </descriptorRefs>
-          <finalName>myDemoApp-1.0-SNAPSHOT</finalName>
+          <finalName>myApp-1.0-SNAPSHOT</finalName>
           <appendAssemblyId>false</appendAssemblyId>
           <archive>
             <manifest>
