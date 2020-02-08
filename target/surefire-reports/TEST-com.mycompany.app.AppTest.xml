@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="com.mycompany.app.AppTest" time="0.004" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="com.mycompany.app.AppTest" time="0.005" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.6+10-post-Ubuntu-1ubuntu119.10.1"/>
@@ -61,10 +61,10 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.mycompany.app.AppTest" name="testDivisionZeroTrue" time="0.004"/>
+  <testcase classname="com.mycompany.app.AppTest" name="testDivisionZeroTrue" time="0.005"/>
   <testcase classname="com.mycompany.app.AppTest" name="testContainsSpecialUncceptableChar" time="0"/>
   <testcase classname="com.mycompany.app.AppTest" name="testContainsSpecialAcceptableChar" time="0"/>
-  <testcase classname="com.mycompany.app.AppTest" name="testRepeatChar" time="0"/>
   <testcase classname="com.mycompany.app.AppTest" name="testTrue" time="0"/>
   <testcase classname="com.mycompany.app.AppTest" name="testContainChar" time="0"/>
+  <testcase classname="com.mycompany.app.AppTest" name="testRepeatChar" time="0"/>
 </testsuite>
