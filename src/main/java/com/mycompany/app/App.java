@@ -23,8 +23,20 @@ public class App
 		boolean b=false;
         for(int i=0;i<str.length();i++) {
             for(int j=0;j<integers.length;j++) {
-            	if((str.charAt(i)-ch)==0) {
+            	if(str.charAt(i)<65||str.charAt(i)>122) {
             		i=str.length();
+            		b=false;
+                    break;
+            	}
+            	
+            	else if((str.charAt(i)-ch)==0) {
+            		i=str.length();
+            		b=false;
+                    break;
+                }
+                
+                else if (arr.contains(integers[j]/(str.charAt(i)-ch))) {
+                	i=str.length();
             		b=false;
                     break;
                 }
@@ -32,7 +44,6 @@ public class App
                 else { 
                     arr.add(integers[j]/(str.charAt(i)-ch));
                     b=true;
-                    break;
                 }
             }
         }
